@@ -1,0 +1,47 @@
+import java.util.Random;
+
+public class CitySim {
+	public static void main(String args[]){
+		Location presby = new Location("Presby",false);
+		Location union = new Location("Union",false);
+		Location hillman = new Location("Hillman",false);
+		Location sennott = new Location("Sennott",false);
+		Location cleveland = new Location("Cleveland",true);
+		Location philadelphia = new Location("Philadelphia",true);
+		Street bill = new Street("Bill St.");
+		Street phil = new Street("Phil St.");
+		Street fourth = new Street("Fourth Ave.");
+		Street fourthToPhilly = new Street("Fourth Ave.");
+		Street fifth = new Street("Fifth Ave.");
+		Street fifthToCleveland = new Street("Fifth Ave.");
+		connectStreetAndLocation(presby,fourth);
+		connectStreetAndLocation(presby,bill);
+		connectStreetAndLocation(union,fourthToPhilly);
+		connectStreetAndLocation(union,phil);
+		connectStreetAndLocation(hillman,phil);
+		connectStreetAndLocation(hillman,fifth);
+		connectStreetAndLocation(sennott,bill);
+		connectStreetAndLocation(sennott,fifthToCleveland);
+		connectStreetAndLocation(cleveland,fourth);
+		connectStreetAndLocation(philadelphia,fifth);
+		int driver = 1;
+		int seed = 3;
+		Random rand = new Random(seed);
+		while (driver<6){
+			int randomStartingNum=rand.nextInt(4);
+			System.out.println(randomStartingNum);
+			driver++;
+		}
+	}
+	
+	public static int getRandomDirection(Random rand,int max) {
+		return rand.nextInt(max);
+	}
+
+	public static boolean connectStreetAndLocation(Location l, Street s){
+		if (l.addAdjacentStreet(s) && s.addLocation(l)) return true;
+		else return false;
+	}
+	
+	
+}

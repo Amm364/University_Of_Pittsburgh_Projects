@@ -1,0 +1,40 @@
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+
+public class RentACat {
+	public static void main(String args[]){
+		Cat c1 = new Cat("Billy",25.00,1);
+		Cat c2 = new Cat("George",20.00,2);
+		Cat c3 = new Cat("Sally",35.00,3);
+		Cat c4 = new Cat("Danny",50.00,4);
+		Cat c5 = new Cat("Alex",15.00,5);
+		Cat c6 = new Cat("Damani",23.00,6);
+		Cat c7 = new Cat("Dj",31.50,7);
+		
+		Person p1 = new Person("Alex",10);
+		Person p2 = new Person("Josh",11);
+		Person p3 = new Person("Chris",12);
+		Person p4 = new Person("Adam",13);
+		
+		
+	}
+	@test
+	public String rentCat(Person p,Cat c){
+		if (!p.rentedACat && !c.rented){
+			p.rentCat(c);
+			return "Success";
+		}
+		else {
+			return "Fail";
+		}
+	}
+	public String returnCat(Person p,Cat c){
+		if (p.rentedACat && c.rented){
+			p.returnCat(c);
+			return "Success";
+		}
+		else{
+			return "Fail"
+		}
+	}
+}

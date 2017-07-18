@@ -1,0 +1,7 @@
+
+public class Driver {
+	private driverNumber;
+	public Driver(int num){
+		driverNumber=num;
+	}
+}
