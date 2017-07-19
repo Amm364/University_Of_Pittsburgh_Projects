@@ -1,0 +1,35 @@
+
+public class Person {
+	String name;
+	int id;
+	String catName;
+	Boolean rentedACat;
+	
+	public Person(String n,int i){
+		name=n;
+		id=i;
+		rentedACat=false;
+	}
+	
+	public String rentCat(Cat c){
+		if (rentedACat){
+			return "Person " + id + " has already rented a cat.";
+		}
+		else{
+			rentedACat=true;
+			catName=c.name;
+			c.rentCat();
+			return "Person " + id + " has rented " + catName;
+		}
+	}
+	public String returnCat(Cat c){
+		if (rentedACat){
+			rentedACat=false;
+			c.returnCat();
+			return "Person " + id + " has returned " + catName;
+		}
+		else{
+			return "Person " + id + " does not have a cat to return.";
+		}
+	}
+}

@@ -1,0 +1,59 @@
+========================================
+CS/COE 1501 Assignment Information Sheet
+----------------------------------------
+
+You must submit an information sheet with every assignment.  Also be sure
+to submit all materials following the procedures described on the
+submission procedures page.
+
+Name:  Alex Mitro
+
+Lecture section:  MW 6:00 7:15
+
+Recitation day and time: M 8:00  
+
+Assignment #: 3 
+
+Program due date: 3/29/15 at Midnight 
+
+Handed in date:  3/29/15 
+
+Source code file name(s):
+Airline.java 
+Edge.java 
+Node.java
+WeightCompare.java
+
+
+
+Other file name(s) (if relevant):
+a4data1.txt
+a4data2.txt
+
+
+
+
+
+Does your program run without error?: I think it runs without error. It might crash if
+input values are incorrect and weren't expected by the user.
+
+If not, what is/are the error(s) and which parts of your program run
+correctly?:
+
+
+
+
+
+
+
+Additional comments to the grader:
+I'm sorry for how ugly it looks.
+Instead of using a linked list of edges, i used a linked list
+of Nodes and grabbed the edges from them.
+
+
+
+
+
+
+

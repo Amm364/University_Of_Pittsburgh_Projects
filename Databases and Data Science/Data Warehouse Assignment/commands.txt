@@ -1,0 +1,20 @@
+# File: commands.txt
+# Desc: sample command.txt file for assignment #3 (CS 1656/Fall 2016)
+# Auth: Alexandros Labrinidis (labrinid@cs.pitt.edu)
+# Date: October 11, 2016
+#
+format year,state,product,sales
+load input.csv
+
+rollup product
+rollup state
+save output1.csv
+
+drilldown state
+save output2.csv
+
+slice state=PA
+save output3.csv
+
+slice year=2014
+save output4.csv

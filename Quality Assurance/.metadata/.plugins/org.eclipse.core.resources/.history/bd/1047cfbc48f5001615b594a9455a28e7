@@ -1,0 +1,12 @@
+import java.util.Random;
+
+public class Driver {
+	private int driverNumber;
+	public Driver(int num){
+		driverNumber=num;
+	}
+	
+	public int getRandomDirection(Random rand,int max) {
+		return rand.nextInt(max);
+	}
+}

@@ -1,0 +1,251 @@
+.header-text{
+  padding-top: 17px;
+  font-size: 40px;
+}
+
+header{
+  height: 80px;
+  background-color: maroon;
+}
+
+body{
+  background-color: lightblue;
+  height: 800px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -40px;
+  margin-bottom: 0;
+}
+
+footer{
+  border: 5px solid gold;
+  background-color: maroon;
+  height: 50px;
+  position: relative;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.text{
+  color: gold;
+  text-align: center;
+}
+
+#paragraph1{
+  font-weight: 900;
+}
+
+.pittImage{
+  position: absolute;
+  margin-left: 5px;
+}
+
+.head{
+  color: gold;
+  text-align: center;
+}
+
+.left-index{
+  background-color: maroon;
+  position: absolute;
+  margin: 5px;
+  height: 650px;
+  width: 200px;
+  border: 5px solid gold;
+  text-align: center;
+}
+
+.main-div{
+  margin-left: 225px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  height: 650px;
+  border: 5px solid gold;
+  width: 850px;
+  background-color: white;
+}
+
+.right-index{
+  background-color: maroon;
+  position: absolute;
+  top: 85px;
+  right: 5px;
+  float: right;
+  margin-right: 0;
+  height: 650px;
+  width: 240px;
+  border: 5px solid gold;
+}
+
+.button{
+  border: 2px solid gold;
+  padding: 5px 15px;
+  text-align: center;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  color: black;
+  background-color: grey;
+}
+
+#svButton{
+  background-color: maroon;
+  color: gold;
+}
+
+#pittButton{
+  background-color: #0000cd;
+  color: gold;
+}
+
+#steelersButton{
+  background-color: black;
+  color: gold;
+}
+
+#colorChange{
+  position: absolute;
+  height: 35px;
+  margin-top: 0;
+  margin-left: 0;
+  padding: 17px;
+  padding-left: 28px;
+}
+
+#leftIndexText{
+  text-align: center;
+  margin-top: 0;
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 10px;
+  color: gold;
+}
+
+.heading{
+  text-align: center;
+}
+
+#getName{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 0;
+}
+
+.list-item{
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#nameText{
+  color: gold;
+}
+
+#revealName{
+  margin-top: 10px;
+  padding: 4px;
+  display: none;
+  color: gold;
+  font-weight: 600;
+}
+
+#form1{
+  margin-top: 20px;
+}
+
+#navigationText{
+  color: gold;
+}
+
+.nav-button{
+  margin-left: -3px;
+  border: 2px solid gold;
+  width: 205px;
+  padding: 20px 15px;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+  color: gold;
+  background-color: maroon;
+}
+
+#nameForm{
+  margin-top: 10px;
+}
+
+#Interests{
+  display: none;
+}
+
+#Sports{
+  display: none;
+}
+
+#Memes{
+  display: none;
+}
+
+#Poll{
+  display: none;
+}
+
+#Games{
+  display: none;
+}
+
+.image{
+  height: 40px;
+  width: 40px;
+}
+
+#footerText{
+  margin-top: 5px;
+}
+
+#introText{
+  margin-left: 20px;
+  font-size: 20px
+}
+
+.cathy{
+  height: 650px;
+  width: 240px;
+}
+
+.data-output{
+  margin-left: 225px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  height: 650px;
+  border: 5px solid gold;
+  width: 850px;
+  background-color: white;
+  display: none;
+}
+
+.poll-header{
+  margin-top: 40px;
+}
+
+#completed{
+  display: none
+}
+
+#Results{
+  display: none;
+}
+
+.res{
+  font-weight: bold;
+  margin: 0 0;
+  text-align: left;
+}
+
+.field{
+  margin: 10px 300px;
+}
+
+.im{
+  width: 250px;
+  height: 250px;
+  margin: 15px 15px;
+}

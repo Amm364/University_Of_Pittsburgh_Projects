@@ -1,0 +1,32 @@
+
+public class Cat {
+	String name;
+	Boolean rented;
+	double cost;
+	int id;
+	public Cat(String catName,double c,int cid){
+		name=catName;
+		rented=false;
+		cost=c;
+		id=cid;
+	}
+	
+	public String rentCat(){
+		if (rented){
+			return "Cat with ID " + id + " has already been rented";
+		}
+		else{
+			rented=true;
+			return "Cat with ID " + id + " is now being rented.";
+		}
+	}
+	public String returnCat(){
+		if (rented){
+			rented=false;
+			return "Cat with ID " + id + " has been returned.";
+		}
+		else{
+			return "Cat with ID " + id + " is not currently rented.";
+		}
+	}
+}
