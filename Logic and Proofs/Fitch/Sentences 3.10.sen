@@ -1,1 +1,0 @@
-7.0.1.14930wnds:Windows NT (unknown)6.2SntFC1442889778788D1442890555581S101834Between(a,b,c)  | Between(b,a,c)FrontOf(a,b)  | FrontOf(c,b)~SameRow(b,c)  | LeftOf(b,a)RightOf(b,a)  | Tet(a)s=28583;

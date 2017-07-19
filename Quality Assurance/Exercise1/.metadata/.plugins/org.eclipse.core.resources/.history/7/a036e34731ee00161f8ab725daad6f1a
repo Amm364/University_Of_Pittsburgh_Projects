@@ -1,7 +1,0 @@
-
-public class RentACat {
-	public static void main(String args[]){
-		Cat c = new Cat("Billy",20.00,1);
-		
-	}
-}
